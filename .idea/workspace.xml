@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6586ef1a-877e-4a8d-a627-aa810dce7fc0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/links/app/Link.php" beforeDir="false" afterPath="$PROJECT_DIR$/links/app/Link.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/links/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/links/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="6586ef1a-877e-4a8d-a627-aa810dce7fc0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2018_07_17_143942_create_links_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/links/database/migrations/2018_07_17_143942_create_links_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#7#45#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkFactory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/links/database/factories/LinkFactory.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,13 +50,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/links/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RouteServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/links/app/Providers/RouteServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="submit.blade.php" pinned="false" current-in-tab="false">
@@ -386,12 +376,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531837068041</updated>
-      <workItem from="1531837069369" duration="10350000" />
+      <workItem from="1531837069369" duration="11170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10350000" />
+    <option name="totallyTimeSpent" value="11170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="478" y="23" width="1013" height="798" extended-state="0" />
@@ -531,10 +521,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/links/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="435">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/links/app/Providers/RouteServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
