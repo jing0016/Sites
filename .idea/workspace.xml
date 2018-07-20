@@ -376,16 +376,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531837068041</updated>
-      <workItem from="1531837069369" duration="11744000" />
+      <workItem from="1531837069369" duration="12010000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11744000" />
+    <option name="totallyTimeSpent" value="12010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="478" y="23" width="1013" height="798" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
