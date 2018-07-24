@@ -12,4 +12,5 @@ class Link extends Model
         'url',
         'description'
     ];
+
 }
