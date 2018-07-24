@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('content')
     <div class="container">
-        <div class="row">
-            <h1>Submit a link</h1>
+
+            <h2>Submit a link</h2>
+
             <form action="/submit" method="post">
                 @if ($errors->any())
                     <div class="alert alert-danger" role="alert">
@@ -37,6 +38,6 @@
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
-        </div>
+
     </div>
 @endsection

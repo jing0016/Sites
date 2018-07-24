@@ -12,6 +12,7 @@
 */
 
 use Illuminate\Http\Request;
+use App\Link;
 
 Route::get('/', function () {
 
@@ -22,7 +23,9 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
+
+//Route::get('/', 'HomeController@index');
 
 Route::get('/submit',function (){
    return view('submit');
@@ -39,3 +42,33 @@ Route::post('/submit',function (Request $request){
 
    return redirect('/');
 });
+
+Route::get('/link/{link}',function (Link $link){
+    if(Auth::check())
+    {
+        return view('edit',['link' => $link]);
+    }
+    else
+    {
+        return redirect('/');
+    }
+
+});
+
+Route::post('/link/{link}',function (Request $request,Link $link){
+    if(isset($_POST['delete']))
+    {
+        $link->delete();
+        return redirect('/');
+    }
+    else
+    {
+        $link->title = $request->title;
+        $link->url = $request->url;
+        $link->description = $request->description;
+        $link->save();
+        return redirect('/');
+    }
+});
+
+
