@@ -16,9 +16,17 @@ use App\Link;
 
 Route::get('/', function () {
 
-    $links = \App\Link::all();
+    if(Auth::check())
+    {
+        $links = \App\Link::all();
 
-    return view('welcome',['links' => $links]);
+        return view('welcome',['links' => $links]);
+    }
+    else
+    {
+        return view('auth/login');
+    }
+
 });
 
 Auth::routes();
